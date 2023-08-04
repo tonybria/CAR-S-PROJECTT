@@ -15,6 +15,9 @@ function App() {
       <Route exact path="/cars/:id" element={<CarDetails/>} />
       
 </Routes>
+<footer>
+        <p>© 2023 Car Project. All rights reserved.</p>
+      </footer>
    </div>
   );
 }
